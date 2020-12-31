@@ -15,7 +15,7 @@ img {
 
 /* start form style */
 .login-form {
-  width: 385px;
+  width: 400px;
   margin: 30px auto;
 }
 
@@ -35,7 +35,18 @@ img {
   min-height: 38px;
   border-radius: 2px;
 }
-
+.input-group-addon {
+  padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 15%
+}
 .input-group-addon .fa {
   font-size: 18px;
 }
