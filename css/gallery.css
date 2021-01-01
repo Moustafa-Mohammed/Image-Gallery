@@ -1,18 +1,15 @@
 body {
   padding-top: 70px;
-  background-color: #f2f2f2;
+  background-color: #fff;
 }
-.navbar-header i {
-  color: #fff;
-}
-
+ /* Start Navbar */
 .navbar a {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.navbar a::after {
+.navbar-nav a::after {
   content: '';
   display: block;
   width: 0;
@@ -21,10 +18,11 @@ body {
   transition: width .3s;
 }
 
-.navbar a:hover::after {
+.navbar-nav a:hover::after {
   width: 100%;
-  //transition: width .3s;
+  transition: width .3s;
 }
+
 
 img {
   margin-bottom: 15px;
@@ -34,6 +32,19 @@ img {
   text-align: center;
   background-color: #088fe9;
   color: #fff;
+}
+
+.thumbnail-div {
+  border: 1px solid #dee2e6; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  background-color: #fff;
+  text-align: center;
+  line-height: 10px;
+}
+
+.checked {
+  color: orange;
 }
 
 /* start form style */
